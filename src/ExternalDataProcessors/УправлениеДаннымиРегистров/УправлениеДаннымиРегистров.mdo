@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1281e63-6799-4508-8c44-414c8349a895">
+  <producedTypes>
+    <objectType typeId="c3e1f0e6-db12-46c1-b95e-2c9725b1f9f7" valueTypeId="69c9abe4-6c5b-4cd9-99bc-19b2c588f32e"/>
+  </producedTypes>
+  <name>УправлениеДаннымиРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление данными регистров</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b05ee22d-5d7b-4342-9844-4bf13432780f"/>
+  <defaultForm>ExternalDataProcessor.УправлениеДаннымиРегистров.Form.ФормаОбработки</defaultForm>
+  <forms uuid="713a0cae-39fa-4574-b035-8c283ab04485">
+    <name>ФормаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обработки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e19d732-b556-4512-8601-e2432c3c428b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
