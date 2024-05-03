@@ -1223,6 +1223,26 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ВерсияСовместимостиКонфигурации</name>
+    <title>
+      <key>ru</key>
+      <value>Версия совместимости конфигурации</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ДобавитьЗапись</name>
     <title>
