@@ -7,7 +7,7 @@
       <name>ГруппаОтбор</name>
       <id>42</id>
       <items xsi:type="form:FormField">
-        <name>ПолноеИмя</name>
+        <name>ПолноеИмяРегистра</name>
         <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -15,14 +15,14 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ПолноеИмя</segments>
+          <segments>ПолноеИмяРегистра</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>ПолноеИмяПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПолноеИмяРасширеннаяПодсказка</name>
+          <name>ПолноеИмяРегистраРасширеннаяПодсказка</name>
           <id>48</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -37,7 +37,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПолноеИмяКонтекстноеМеню</name>
+          <name>ПолноеИмяРегистраКонтекстноеМеню</name>
           <id>47</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1124,27 +1124,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ОписаниеРегистров</name>
-    <title>
-      <key>ru</key>
-      <value>Описание регистров</value>
-    </title>
-    <id>7</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
-    <name>ПолноеИмя</name>
+    <name>ПолноеИмяРегистра</name>
     <title>
       <key>ru</key>
       <value>Регистр</value>
@@ -1214,44 +1194,34 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КартинкиРегистров</name>
+    <name>ВидыСубконтоСчетов</name>
     <title>
       <key>ru</key>
-      <value>Картинки регистров</value>
-    </title>
-    <id>12</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
-  <attributes>
-    <name>СубконтоСчетов</name>
-    <title>
-      <key>ru</key>
-      <value>Субконто счетов</value>
+      <value>Виды субконто счетов</value>
     </title>
     <id>13</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
     <edit>
       <common>true</common>
     </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ОписаниеРегистров</name>
+    <title>
+      <key>ru</key>
+      <value>Описание регистров</value>
+    </title>
+    <id>14</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ДобавитьЗапись</name>
