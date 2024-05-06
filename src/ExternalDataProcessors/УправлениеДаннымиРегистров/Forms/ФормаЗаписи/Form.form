@@ -145,6 +145,21 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ОписаниеПолей</name>
+    <title>
+      <key>ru</key>
+      <value>Описание полей</value>
+    </title>
+    <id>4</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОК</name>
     <title>
