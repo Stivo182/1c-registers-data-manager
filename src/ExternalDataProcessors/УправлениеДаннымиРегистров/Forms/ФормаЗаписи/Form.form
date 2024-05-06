@@ -95,7 +95,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.УправлениеДаннымиРегистров</types>
+      <types>ExternalDataProcessor.УправлениеДаннымиРегистров</types>
     </valueType>
     <view>
       <common>true</common>
@@ -166,6 +166,27 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОтображатьФлажок</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОписаниеПолей</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ДанныеЗаписи</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
