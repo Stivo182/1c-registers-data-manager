@@ -146,10 +146,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ОписаниеПолей</name>
+    <name>ОписаниеРегистра</name>
     <title>
       <key>ru</key>
-      <value>Описание полей</value>
+      <value>Описание регистра</value>
     </title>
     <id>4</id>
     <valueType/>
@@ -195,7 +195,7 @@
     </valueType>
   </parameters>
   <parameters>
-    <name>ОписаниеПолей</name>
+    <name>ОписаниеРегистра</name>
     <valueType/>
   </parameters>
   <parameters>
