@@ -171,6 +171,11 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ОбменДаннымиЗагрузка</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Для набора записей и менеджера записи устанавливается ОбменДанными.Загрузка = Истина</value>
+        </toolTip>
+        <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
           <name>ОбменДаннымиЗагрузкаРасширеннаяПодсказка</name>
           <id>85</id>
@@ -1162,7 +1167,7 @@
     <name>ОбменДаннымиЗагрузка</name>
     <title>
       <key>ru</key>
-      <value>ОбменДанными.Загрузка = Истина</value>
+      <value>Режим &quot;Обмен данными&quot;</value>
     </title>
     <id>10</id>
     <valueType>
